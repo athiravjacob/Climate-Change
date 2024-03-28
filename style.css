@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn{
+    border-radius: 0;
+    padding:.8rem 2rem;
+}
+li{
+    list-style-type: none;
+}
+.btn:hover{
+    box-shadow: 1px 1px 10px 5px black;
+}
+.fa-brands:hover,a:hover{
+    transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/************************* Navigation *********************/
+@media (width<=960px){
+    .navbar-nav{
+       display: flex;
+       align-items: center;
+       gap: 5px;
+   
+   } 
+}
+.social-icons{
+   display: flex;
+   align-items: center;
+   font-size: 24px;
+   gap: 5px;
+}
+/******************************* Header *********************************/
+header{
+    background-image: url(https://images.pexels.com/photos/17993079/pexels-photo-17993079/free-photo-of-little-bear-in-the-woods.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);    
+    background-repeat: no-repeat;
+    background-position: 50% 70%;
+    background-size: cover;
+    
+}
+.header-text{
+    font-size: 2.5rem;
+}
+
+@media (width<=600px)
+{   
+    .btn-container{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        
+    }
+    /* .header{
+        background-position: 40%;
+        background-size: contain;
+    } */
+    .header-text{
+        font-size: 1.2rem;
+    }
+    
+}
+/**************************** About ******************************/
+
+.grey{
+    filter: grayscale(100%);
+}
+/*********************** Overlay ************************/
+.overlay{
+    background-blend-mode:darken;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.red{
+    background-image: url(https://images.pexels.com/photos/243138/pexels-photo-243138.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1),
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQkAAACUCAMAAAC3OSx/AAAAA1BMVEX+AAAYIGMAAAAAPUlEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPg2ZyAABJ38R2gAAAABJRU5ErkJggg==);
+ 
+}
+.schedule{
+    background-image: url(https://images.pexels.com/photos/5546102/pexels-photo-5546102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1),
+    url(https://htmlcolorcodes.com/assets/images/colors/blue-green-color-solid-background-1920x1080.png);
+    background-blend-mode:soft-light;
+   
+}
+.green{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQMAAADCCAMAAAB6zFdcAAAAA1BMVEWHxWC4P3KMAAAASElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIC3AcUIAAFkqh/QAAAAAElFTkSuQmCC),
+    url(https://res2.weblium.site/res/5e2874b1e1c35b0021504ff4/5e2abcef192b1e00212919d7_optimized_1395_c1395x931-0x0.webp);
+   
+}
+/*************************** Topics **********************/
+
+.topic-icon{
+    width: 50px;
+    height: 50px;
+}
+
+
+/****************************** SPEAKERS *********************/
+
+.img-speaker{
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}
+
+/* FOOTER */
+
